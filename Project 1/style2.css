@@ -1,0 +1,81 @@
+*{ Margin: 0;
+Padding: 0;
+Box-sizing: border-box;
+Text-decoration: none;
+List-style: none;
+}
+
+Body{
+Background-color: antiquewhite;
+}
+
+.nav{ Display: flex;
+Padding: 2% 6%;
+Justify-content: space-between; Align-items: center;
+}
+.nav-links{
+Text-align: center;
+}
+
+.nav-links ul li{ List-style: none;
+Display: inline-block;
+Padding: 8px 12px;
+Position: relative;
+}
+.nav-links ul li a{ Color: rgb(0, 0, 0); Text-decoration: none; Font-size: 20px;
+}
+
+
+.header{ Height: 100vh; Width: 100%;
+Background-image :url(image.jpg); Background-position: center; Background-size: cover;
+}
+
+
+#LandingPage{ Display: grid; Margin: 0 3rem;
+Grid-template-columns: repeat(12,1fr); Column-gap: 10px;
+}
+
+.content{
+Font-size: 140%; Margin-top: 9rem; Margin-left: 54.5rem; White-space: nowrap; Color: rgb(83, 39, 1)
+
+}
+
+.bt{
+Display: inline-block; Background: rgb(153, 100, 57);
+Color: rgb(255, 255, 255); Margin-left: 70rem; Padding: 10px 30px;
+Font-size: 110%; Border-radius: 15px; White-space: nowrap;
+}
+
+
+.btn{
+Display: inline-block; Background: rgb(153, 100, 57);
+Color: rgb(255, 255, 255); Padding: 10px 30px; Border-radius: 10px; White-space: nowrap;
+}
+
+.btn1{
+Font-size: 125%; Display: inline-block; Background:transparent; Color:#FF1F00;
+Margin-top: 5rem; White-space: nowrap;
+}
+
+
+.btn2{
+Font-size: 125%; Display: inline-block; Background:transparent; Color:#FF1F00;
+Margin-left:0rem; Margin-top: 0rem; White-space: nowrap;
+}
+
+.footer{ Width: 100;
+Text-align: center; Padding: 30px 0;
+}
+
+    
+.footer:h2{
+Margin-bottom: 25px; Margin-top: 20px; Font-size: 600;
+}
+
+.foot{ Width: 100;
+Text-align: right; Padding: 30px 0;
+}
+
+.foot:h2{
+Margin-bottom: 25px; Margin-top: 20px; Font-size: 600;
+}
